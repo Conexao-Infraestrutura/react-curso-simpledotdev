@@ -6,7 +6,7 @@ export function Header({ cart }) {
   let totalQuantanty = 0;
 
   cart.forEach(cartItem => {
-    totalQuantanty += cartItem.quantaty;
+    totalQuantanty += cartItem.quantity;
   });
   
   return (
